@@ -473,7 +473,8 @@ var util = {
         "collectedAddress": "Address",
         "collectedContactPoint": "ContactPoint",
         "pAttachment": "Attachment",
-        "pReference": "Reference"
+        "pReference": "Reference",
+        "quantityQuantity": "Quantity" // Added quantityQuantity
     }
 };
 
