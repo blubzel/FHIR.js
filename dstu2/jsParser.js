@@ -72,7 +72,7 @@ module.exports = function(profiles) {
                     builder = buildIdentifier;
                     break;
                 case 'valueQuantity':
-                case 'quantityQuantity':
+                case 'quantityQuantity': // Added quantityQuantity
                     builder = buildQuantity;
                     break;
                 case 'valueRange':
