@@ -96,6 +96,9 @@ module.exports = function(profiles) {
                 case 'valueSchedule':
                     builder = buildSchedule;
                     break;
+                case 'medicationReference': // Added medicationReference
+                    builder = buildReference;
+                    break;
                 default:
                     throw 'Unexpected extension value type: ' + i;
             }

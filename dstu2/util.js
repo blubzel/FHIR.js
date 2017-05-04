@@ -474,7 +474,8 @@ var util = {
         "collectedContactPoint": "ContactPoint",
         "pAttachment": "Attachment",
         "pReference": "Reference",
-        "quantityQuantity": "Quantity" // Added quantityQuantity
+        "quantityQuantity": "Quantity", // Added quantityQuantity
+        "medicationReference": "Reference" // Added medicationReference
     }
 };
 
