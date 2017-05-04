@@ -63,6 +63,7 @@ module.exports = function(profiles) {
                     builder = buildCoding;
                     break;
                 case 'valueCodeableConcept':
+                case 'reasonForUseCodeableConcept': // Added reasonForUseCodeableConcept
                     builder = buildCodeableConcept;
                     break;
                 case 'valueAttachment':

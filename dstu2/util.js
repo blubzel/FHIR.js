@@ -475,7 +475,8 @@ var util = {
         "pAttachment": "Attachment",
         "pReference": "Reference",
         "quantityQuantity": "Quantity", // Added quantityQuantity
-        "medicationReference": "Reference" // Added medicationReference
+        "medicationReference": "Reference", // Added medicationReference
+        "reasonForUseCodeableConcept": "CodeableConcept" // Added reasonForUseCodeableConcept
     }
 };
 
