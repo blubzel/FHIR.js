@@ -81,6 +81,7 @@ var util = {
     },
 
     ChoiceElements: {
+        "medicationCodeableConcept": "CodeableConcept",
         "valueBoolean": "boolean",
         "valueInteger": "integer",
         "valueDecimal": "decimal",
